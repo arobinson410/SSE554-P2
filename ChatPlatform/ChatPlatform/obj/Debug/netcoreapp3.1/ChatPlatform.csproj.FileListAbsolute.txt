@@ -1,0 +1,11 @@
+C:\Users\arobi\source\repos\ChatPlatform\ChatPlatform\bin\Debug\netcoreapp3.1\ChatPlatform.exe
+C:\Users\arobi\source\repos\ChatPlatform\ChatPlatform\bin\Debug\netcoreapp3.1\ChatPlatform.deps.json
+C:\Users\arobi\source\repos\ChatPlatform\ChatPlatform\bin\Debug\netcoreapp3.1\ChatPlatform.runtimeconfig.json
+C:\Users\arobi\source\repos\ChatPlatform\ChatPlatform\bin\Debug\netcoreapp3.1\ChatPlatform.runtimeconfig.dev.json
+C:\Users\arobi\source\repos\ChatPlatform\ChatPlatform\bin\Debug\netcoreapp3.1\ChatPlatform.dll
+C:\Users\arobi\source\repos\ChatPlatform\ChatPlatform\bin\Debug\netcoreapp3.1\ChatPlatform.pdb
+C:\Users\arobi\source\repos\ChatPlatform\ChatPlatform\obj\Debug\netcoreapp3.1\ChatPlatform.csprojAssemblyReference.cache
+C:\Users\arobi\source\repos\ChatPlatform\ChatPlatform\obj\Debug\netcoreapp3.1\ChatPlatform.AssemblyInfoInputs.cache
+C:\Users\arobi\source\repos\ChatPlatform\ChatPlatform\obj\Debug\netcoreapp3.1\ChatPlatform.AssemblyInfo.cs
+C:\Users\arobi\source\repos\ChatPlatform\ChatPlatform\obj\Debug\netcoreapp3.1\ChatPlatform.dll
+C:\Users\arobi\source\repos\ChatPlatform\ChatPlatform\obj\Debug\netcoreapp3.1\ChatPlatform.pdb
