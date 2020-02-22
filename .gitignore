@@ -17,3 +17,5 @@ ChatPlatform/ChatPlatformUnitTest/obj/Debug/ChatPlatformUnitTest.csprojAssemblyR
 ChatPlatform/ChatClient/obj/Debug/net472/ChatClient.assets.cache
 *.cache
 *.json
+*.ide-shm
+*.ide-wal
