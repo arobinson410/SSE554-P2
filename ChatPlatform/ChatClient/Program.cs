@@ -10,20 +10,29 @@ namespace ChatClient
         static void Main(string[] args)
         {
             Int32 port = 13000;
-            String server = "127.0.0.1";
+            String server = args[0];
 
-            Thread.Sleep(5000);
+            try
+            {
+                TcpClient client = new TcpClient(server, port);
 
-            TcpClient client = new TcpClient(server, port);
+                while (true)
+                {
+                    string incomingMessage = Console.ReadLine();
+                    Byte[] data = System.Text.Encoding.ASCII.GetBytes(incomingMessage);
 
-            Byte[] data = System.Text.Encoding.ASCII.GetBytes("Client Sending Message");
+                    NetworkStream stream = client.GetStream();
+                    stream.Write(data, 0, data.Length);
 
-            NetworkStream stream = client.GetStream();
+                }
+            }
+            catch(Exception)
+            {
+                Console.WriteLine("Could not Connect!");
+            }
 
-            stream.Write(data, 0, data.Length);
-
-            stream.Close();
-            client.Close();
+            //stream.Close();
+            
         }
     }
 }
