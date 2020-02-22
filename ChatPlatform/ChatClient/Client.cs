@@ -5,21 +5,30 @@ using System.Threading;
 
 namespace ChatClient
 {
+    public enum MESSAGE_TYPE
+    {
+        LOGIN,
+        DISCONNECT,
+        MESSAGE_SENT,
+    };
+
     public class Client
     {
         private static TcpClient client;
         private static NetworkStream stream;
 
+        private static string username;
+
         static void Main(string[] args)
         {
-            SetupClient(args[0], 13000);
+            ClientHandler c = new ClientHandler(args[0], 13000, args[1]);
 
             try 
             { 
                 while (true)
                 {
                     string incomingMessage = Console.ReadLine();
-                    SendMessage(incomingMessage);
+                    c.SendMessage(incomingMessage);
                 }
             }
             catch(Exception)
@@ -28,26 +37,8 @@ namespace ChatClient
             }
             finally
             {
-                StopClient();
+                c.StopClient();
             }
-        }
-
-        public static void SendMessage(string s)
-        {
-            Byte[] data = System.Text.Encoding.ASCII.GetBytes(s);
-            stream.Write(data, 0, data.Length);
-        }
-
-        public static void SetupClient(String address, Int32 port)
-        {
-            client = new TcpClient(address, port);
-            stream = client.GetStream();
-        }
-
-        public static void StopClient()
-        {
-            stream.Close();
-            client.Close();
         }
     }
 }
