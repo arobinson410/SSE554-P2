@@ -1,0 +1,8 @@
+C:\Users\arobi\source\repos\SSE554-P2\ChatPlatform\ChatPlatform\bin\Debug\net472\ChatPlatform.exe.config
+C:\Users\arobi\source\repos\SSE554-P2\ChatPlatform\ChatPlatform\bin\Debug\net472\ChatPlatform.exe
+C:\Users\arobi\source\repos\SSE554-P2\ChatPlatform\ChatPlatform\bin\Debug\net472\ChatPlatform.pdb
+C:\Users\arobi\source\repos\SSE554-P2\ChatPlatform\ChatPlatform\obj\Debug\net472\ChatPlatform.AssemblyInfoInputs.cache
+C:\Users\arobi\source\repos\SSE554-P2\ChatPlatform\ChatPlatform\obj\Debug\net472\ChatPlatform.AssemblyInfo.cs
+C:\Users\arobi\source\repos\SSE554-P2\ChatPlatform\ChatPlatform\obj\Debug\net472\ChatPlatform.exe
+C:\Users\arobi\source\repos\SSE554-P2\ChatPlatform\ChatPlatform\obj\Debug\net472\ChatPlatform.pdb
+C:\Users\arobi\source\repos\SSE554-P2\ChatPlatform\ChatPlatform\obj\Debug\net472\ChatPlatform.csprojAssemblyReference.cache

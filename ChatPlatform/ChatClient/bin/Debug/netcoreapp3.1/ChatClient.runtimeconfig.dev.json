@@ -2,7 +2,8 @@
   "runtimeOptions": {
     "additionalProbingPaths": [
       "C:\\Users\\arobi\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\arobi\\.nuget\\packages"
+      "C:\\Users\\arobi\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
 }
