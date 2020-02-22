@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\njrog\\source\\SSE 554\\Project_1\\SSE554-P2\\ChatPlatform\\ChatClient\\ChatClient.csproj": {}
+    "C:\\Users\\arobi\\source\\repos\\SSE554-P2\\ChatPlatform\\ChatClient\\ChatClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\njrog\\source\\SSE 554\\Project_1\\SSE554-P2\\ChatPlatform\\ChatClient\\ChatClient.csproj": {
+    "C:\\Users\\arobi\\source\\repos\\SSE554-P2\\ChatPlatform\\ChatClient\\ChatClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\njrog\\source\\SSE 554\\Project_1\\SSE554-P2\\ChatPlatform\\ChatClient\\ChatClient.csproj",
+        "projectUniqueName": "C:\\Users\\arobi\\source\\repos\\SSE554-P2\\ChatPlatform\\ChatClient\\ChatClient.csproj",
         "projectName": "ChatClient",
-        "projectPath": "C:\\Users\\njrog\\source\\SSE 554\\Project_1\\SSE554-P2\\ChatPlatform\\ChatClient\\ChatClient.csproj",
-        "packagesPath": "C:\\Users\\njrog\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\njrog\\source\\SSE 554\\Project_1\\SSE554-P2\\ChatPlatform\\ChatClient\\obj\\",
+        "projectPath": "C:\\Users\\arobi\\source\\repos\\SSE554-P2\\ChatPlatform\\ChatClient\\ChatClient.csproj",
+        "packagesPath": "C:\\Users\\arobi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arobi\\source\\repos\\SSE554-P2\\ChatPlatform\\ChatClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\njrog\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\arobi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net472"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,7 +38,7 @@
       },
       "frameworks": {
         "net472": {
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

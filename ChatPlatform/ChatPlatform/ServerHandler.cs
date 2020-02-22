@@ -92,7 +92,7 @@ namespace ChatPlatform
                     Broadcast(c, m.message);
                     break;
                 case MESSAGE_TYPE.DISCONNECT:
-                    Console.WriteLine(m.sender + "disconnected.");
+                    Console.WriteLine(m.sender + " disconnected.");
                     break;
                 default:
                     break;

@@ -45,7 +45,7 @@ namespace ChatClient
             {
                 if(stream.Read(buf,0,buf.Length)!= 0)
                 {
-                    Console.WriteLine(Encoding.ASCII.GetString(buf));
+                    Console.WriteLine(Encoding.ASCII.GetString(buf).Replace(" ", ""));
                 }
             }
         }
