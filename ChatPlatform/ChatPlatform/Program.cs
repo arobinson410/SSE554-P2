@@ -17,7 +17,6 @@ namespace ChatPlatform
 
             Int32 port = 13000;
             IPAddress localAddr = IPAddress.Parse("127.0.0.1");
-            //Commit Test
 
             TcpListener server = new TcpListener(IPAddress.Any, port);
             server.Start();

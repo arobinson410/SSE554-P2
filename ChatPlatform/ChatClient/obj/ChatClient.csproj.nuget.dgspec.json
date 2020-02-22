@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arobi\\Source\\Repos\\SSE554-P2\\ChatPlatform\\ChatClient\\ChatClient.csproj": {}
+    "C:\\Users\\arobi\\source\\repos\\SSE554-P2\\ChatPlatform\\ChatClient\\ChatClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arobi\\Source\\Repos\\SSE554-P2\\ChatPlatform\\ChatClient\\ChatClient.csproj": {
+    "C:\\Users\\arobi\\source\\repos\\SSE554-P2\\ChatPlatform\\ChatClient\\ChatClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arobi\\Source\\Repos\\SSE554-P2\\ChatPlatform\\ChatClient\\ChatClient.csproj",
+        "projectUniqueName": "C:\\Users\\arobi\\source\\repos\\SSE554-P2\\ChatPlatform\\ChatClient\\ChatClient.csproj",
         "projectName": "ChatClient",
-        "projectPath": "C:\\Users\\arobi\\Source\\Repos\\SSE554-P2\\ChatPlatform\\ChatClient\\ChatClient.csproj",
+        "projectPath": "C:\\Users\\arobi\\source\\repos\\SSE554-P2\\ChatPlatform\\ChatClient\\ChatClient.csproj",
         "packagesPath": "C:\\Users\\arobi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arobi\\Source\\Repos\\SSE554-P2\\ChatPlatform\\ChatClient\\obj\\",
+        "outputPath": "C:\\Users\\arobi\\source\\repos\\SSE554-P2\\ChatPlatform\\ChatClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
