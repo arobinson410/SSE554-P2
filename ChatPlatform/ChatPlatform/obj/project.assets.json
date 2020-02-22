@@ -9,28 +9,30 @@
     ".NETFramework,Version=v4.7.2": []
   },
   "packageFolders": {
-    "C:\\Users\\arobi\\.nuget\\packages\\": {},
+    "C:\\Users\\njrog\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arobi\\source\\repos\\SSE554-P2\\ChatPlatform\\ChatPlatform\\ChatPlatform.csproj",
+      "projectUniqueName": "C:\\Users\\njrog\\source\\SSE 554\\Project_1\\SSE554-P2\\ChatPlatform\\ChatPlatform\\ChatPlatform.csproj",
       "projectName": "ChatPlatform",
-      "projectPath": "C:\\Users\\arobi\\source\\repos\\SSE554-P2\\ChatPlatform\\ChatPlatform\\ChatPlatform.csproj",
-      "packagesPath": "C:\\Users\\arobi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arobi\\source\\repos\\SSE554-P2\\ChatPlatform\\ChatPlatform\\obj\\",
+      "projectPath": "C:\\Users\\njrog\\source\\SSE 554\\Project_1\\SSE554-P2\\ChatPlatform\\ChatPlatform\\ChatPlatform.csproj",
+      "packagesPath": "C:\\Users\\njrog\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\njrog\\source\\SSE 554\\Project_1\\SSE554-P2\\ChatPlatform\\ChatPlatform\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\arobi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\njrog\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net472"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -46,7 +48,7 @@
     },
     "frameworks": {
       "net472": {
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

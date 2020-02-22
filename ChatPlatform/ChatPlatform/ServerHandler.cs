@@ -6,6 +6,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace ChatPlatform
 {
@@ -23,13 +24,16 @@ namespace ChatPlatform
 
         public static bool Start(int port)
         {
+            // Subscribe the Event handler to the receive message function.
             ChatEventHandler += RecieveMessage;
 
+            // Attempt to start a new TCP Listener server.
             try
             {
                 server = new TcpListener(IPAddress.Any, port);
                 server.Start();
 
+                // Set ready flag to true.
                 isReady = true;
                 return true;
             }
@@ -56,11 +60,13 @@ namespace ChatPlatform
 
                 while (true)
                 {
+                    Debug.WriteLine("Creating new Connection...");
                     ConnectionHandler c = new ConnectionHandler(server.AcceptTcpClient(), "1", ChatEventHandler, 256);
                     ClientList.Add(c);
-
+                    Debug.WriteLine("Connection Created.");
                     Thread t = new Thread(() => c.AwaitData());
                     t.Start();
+
                 }
             }
             catch(Exception)
