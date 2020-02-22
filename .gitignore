@@ -14,3 +14,6 @@ ChatPlatform/ChatPlatform/obj/Debug/net472/ChatPlatform.assets.cache
 ChatPlatform/ChatPlatform/obj/Debug/net472/ChatPlatform.csprojAssemblyReference.cache
 ChatPlatform/ChatPlatform/obj/project.assets.json
 ChatPlatform/ChatPlatformUnitTest/obj/Debug/ChatPlatformUnitTest.csprojAssemblyReference.cache
+ChatPlatform/ChatClient/obj/Debug/net472/ChatClient.assets.cache
+*.cache
+*.json
