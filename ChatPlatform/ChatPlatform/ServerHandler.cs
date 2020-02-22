@@ -85,14 +85,16 @@ namespace ChatPlatform
                 case MESSAGE_TYPE.LOGIN:
                     c.Username = m.sender;
                     Console.WriteLine(c.Username + " connected.");
+                    Broadcast(c, c.Username + " connected.");
                     break;
 
                 case MESSAGE_TYPE.MESSAGE_SENT:
                     Console.WriteLine(m.sender + ": " + m.message);
-                    Broadcast(c, m.message);
+                    Broadcast(c, c.Username + ": " + m.message);
                     break;
                 case MESSAGE_TYPE.DISCONNECT:
                     Console.WriteLine(m.sender + " disconnected.");
+                    Broadcast(c, c.Username + " disconnected.");
                     break;
                 default:
                     break;

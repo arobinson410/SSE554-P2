@@ -5,20 +5,8 @@ using System.Threading;
 
 namespace ChatClient
 {
-    public enum MESSAGE_TYPE
-    {
-        LOGIN,
-        DISCONNECT,
-        MESSAGE_SENT,
-    };
-
     public class Client
     {
-        private static TcpClient client;
-        private static NetworkStream stream;
-
-        private static string username;
-
         static void Main(string[] args)
         {
             ClientHandler c = new ClientHandler(args[0], 13000, args[1]);
@@ -27,6 +15,7 @@ namespace ChatClient
             { 
                 while (true)
                 {
+                    Console.Write(">>");
                     string incomingMessage = Console.ReadLine();
                     c.SendMessage(incomingMessage);
                 }

@@ -15,11 +15,15 @@ namespace ChatClient
         private NetworkStream stream;
         private string username;
 
+        public event EventHandler ChatRecievedEventHandler;
+
         public ClientHandler(string address, Int32 port, string username)
         {
             client = new TcpClient(address, port);
             stream = client.GetStream();
-            this.username = username;     
+            this.username = username;
+
+            ChatRecievedEventHandler += PrintMessage;
 
             SendLoginMessage();
             //Spawn a thread to wait for messages
@@ -40,14 +44,20 @@ namespace ChatClient
 
         public void ReceiveMessageFromServer()
         {
-            byte[] buf = new byte[256];
             while(true)
             {
-                if(stream.Read(buf,0,buf.Length)!= 0)
+                Byte[] data = new byte[256];
+                if (stream.Read(data, 0, data.Length) != 0)
                 {
-                    Console.WriteLine(Encoding.ASCII.GetString(buf).Replace(" ", ""));
+                    ChatRecievedEventHandler?.Invoke(this, new MessageRecievedEventArgs(Encoding.ASCII.GetString(data)));
                 }
             }
+        }
+
+        public void PrintMessage(object sender, EventArgs e)
+        {
+            MessageRecievedEventArgs m = e as MessageRecievedEventArgs;
+            Console.WriteLine(m.message);
         }
 
         public void SendMessage(string s)
@@ -56,8 +66,6 @@ namespace ChatClient
             stream.Write(data, 0, data.Length);
         }
 
-
-        
         public void StopClient()
         {
             stream.Close();
