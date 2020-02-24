@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="ChatPlatform" Title="SOLUTION-WIDE PROPERTIES Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform.ConnectionHandler.AwaitData" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000003.html" LinkGroup="ChatPlatform">AwaitData Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform.ServerHandler.BeginAcceptConnections" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000013.html" LinkGroup="ChatPlatform">BeginAcceptConnections Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform.ServerHandler.Broadcast" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000015.html" LinkGroup="ChatPlatform">Broadcast Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000019.html" LinkGroup="ChatPlatform">ChatClient Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform.ServerHandler.ChatEventHandler" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000010.html" LinkGroup="ChatPlatform">ChatEventHandler Event</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000000.html" LinkGroup="ChatPlatform">ChatPlatform Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatformUnitTest" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_000000000000002A.html" LinkGroup="ChatPlatform">ChatPlatformUnitTest Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatClient.ClientHandler.ChatRecievedEventHandler" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_000000000000001C.html" LinkGroup="ChatPlatform">ChatRecievedEventHandler Event</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatformUnitTest.UnitTest1.CheckServerStartup" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_000000000000002C.html" LinkGroup="ChatPlatform">CheckServerStartup Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatClient.Client" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_000000000000001A.html" LinkGroup="ChatPlatform">Client Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatClient.ClientHandler" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_000000000000001B.html" LinkGroup="ChatPlatform">ClientHandler Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatClient.ClientHandler.ClientHandler" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_000000000000001D.html" LinkGroup="ChatPlatform">ClientHandler Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform.ServerHandler.ClientList" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000011.html" LinkGroup="ChatPlatform">ClientList Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform.ConnectionHandler" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000001.html" LinkGroup="ChatPlatform">ConnectionHandler Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform.ConnectionHandler.ConnectionHandler" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000002.html" LinkGroup="ChatPlatform">ConnectionHandler Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatformUnitTest.UnitTest1.ConnectionTest" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_000000000000002D.html" LinkGroup="ChatPlatform">ConnectionTest Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform.ServerHandler.DisconnectClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000016.html" LinkGroup="ChatPlatform">DisconnectClient Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform.ServerHandler.IsReady" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000018.html" LinkGroup="ChatPlatform">IsReady Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatClient.MESSAGE_TYPE" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000023.html" LinkGroup="ChatPlatform">MESSAGE_TYPE Enumeration {ChatClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform.MESSAGE_TYPE" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000006.html" LinkGroup="ChatPlatform">MESSAGE_TYPE Enumeration {ChatPlatform}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatClient.MessageRecievedEventArgs" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000027.html" LinkGroup="ChatPlatform">MessageRecievedEventArgs Class {ChatClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform.MessageRecievedEventArgs" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_000000000000000A.html" LinkGroup="ChatPlatform">MessageRecievedEventArgs Class {ChatPlatform}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatClient.MessageRecievedEventArgs.MessageRecievedEventArgs" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000029.html" LinkGroup="ChatPlatform">MessageRecievedEventArgs Constructor {ChatClient.MessageRecievedEventArgs}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform.MessageRecievedEventArgs.MessageRecievedEventArgs" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_000000000000000E.html" LinkGroup="ChatPlatform">MessageRecievedEventArgs Constructor {ChatPlatform.MessageRecievedEventArgs}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatClient.ClientHandler.PrintMessage" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000020.html" LinkGroup="ChatPlatform">PrintMessage Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatClient.ClientHandler.ReceiveMessageFromServer" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_000000000000001F.html" LinkGroup="ChatPlatform">ReceiveMessageFromServer Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform.ServerHandler.RecieveMessage" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000014.html" LinkGroup="ChatPlatform">RecieveMessage Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SOLUTION-WIDE PROPERTIES Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000031.html" LinkGroup="ChatPlatform">SOLUTION-WIDE PROPERTIES Reference</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatClient.ClientHandler.SendLoginMessage" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_000000000000001E.html" LinkGroup="ChatPlatform">SendLoginMessage Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform.ConnectionHandler.SendMeMessage" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000004.html" LinkGroup="ChatPlatform">SendMeMessage Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatClient.ClientHandler.SendMessage" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000021.html" LinkGroup="ChatPlatform">SendMessage Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform.ServerHandler" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_000000000000000F.html" LinkGroup="ChatPlatform">ServerHandler Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform.ServerHandler.Start" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000012.html" LinkGroup="ChatPlatform">Start Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform.ServerHandler.Stop" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000017.html" LinkGroup="ChatPlatform">Stop Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatClient.ClientHandler.StopClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000022.html" LinkGroup="ChatPlatform">StopClient Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatformUnitTest.UnitTest1.TestClientNumber" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000030.html" LinkGroup="ChatPlatform">TestClientNumber Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatformUnitTest.UnitTest1.TestLogin" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_000000000000002E.html" LinkGroup="ChatPlatform">TestLogin Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatformUnitTest.UnitTest1.TestTalkback" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_000000000000002F.html" LinkGroup="ChatPlatform">TestTalkback Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatformUnitTest.UnitTest1" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_000000000000002B.html" LinkGroup="ChatPlatform">UnitTest1 Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform.ConnectionHandler.Username" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000005.html" LinkGroup="ChatPlatform">Username Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatClient.MessageRecievedEventArgs.message" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_0000000000000028.html" LinkGroup="ChatPlatform">message Field {ChatClient.MessageRecievedEventArgs}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform.MessageRecievedEventArgs.message" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_000000000000000C.html" LinkGroup="ChatPlatform">message Field {ChatPlatform.MessageRecievedEventArgs}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform.MessageRecievedEventArgs.sender" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_000000000000000B.html" LinkGroup="ChatPlatform">sender Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ChatPlatform.MessageRecievedEventArgs.t" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ChatPlatform.chm::/topic_000000000000000D.html" LinkGroup="ChatPlatform">t Field</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+

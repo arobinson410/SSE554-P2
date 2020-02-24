@@ -45,6 +45,7 @@ namespace ChatPlatformUnitTest
 
             c.StopClient();
             ChatPlatform.ServerHandler.Stop();
+            c.StopClient();
         }
 
         [TestMethod]
@@ -64,7 +65,7 @@ namespace ChatPlatformUnitTest
         }
 
         [TestMethod]
-        public void TestTalkback()
+        public void TestRebroadcast()
         {
             List<ChatClient.MessageRecievedEventArgs> list = new List<ChatClient.MessageRecievedEventArgs>();
 
@@ -108,8 +109,7 @@ namespace ChatPlatformUnitTest
             {
                 while (list.Count < 1000)
                 {
-                    ChatClient.ClientHandler c1 = new ChatClient.ClientHandler("127.0.0.1", 13000, "TESTUSER1");
-                    list.Add(c1);
+                    list.Add(new ChatClient.ClientHandler("127.0.0.1", 13000, "TESTUSER1"));
                 }
             }
             catch(Exception e)
