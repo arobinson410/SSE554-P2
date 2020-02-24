@@ -17,3 +17,22 @@ C:\Users\njrog\source\SSE 554\Project_1\SSE554-P2\ChatPlatform\ChatPlatformUnitT
 C:\Users\njrog\source\SSE 554\Project_1\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\obj\Debug\ChatPlatformUnitTest.dll
 C:\Users\njrog\source\SSE 554\Project_1\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\obj\Debug\ChatPlatformUnitTest.pdb
 C:\Users\njrog\source\SSE 554\Project_1\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\bin\Debug\ChatPlatform.pdb
+C:\Users\arobi\Source\Repos\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\arobi\Source\Repos\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\arobi\Source\Repos\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\arobi\Source\Repos\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\bin\Debug\ChatPlatformUnitTest.dll
+C:\Users\arobi\Source\Repos\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\bin\Debug\ChatPlatformUnitTest.pdb
+C:\Users\arobi\Source\Repos\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\bin\Debug\ChatClient.exe
+C:\Users\arobi\Source\Repos\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\bin\Debug\ChatPlatform.exe
+C:\Users\arobi\Source\Repos\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\arobi\Source\Repos\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\arobi\Source\Repos\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\bin\Debug\ChatClient.pdb
+C:\Users\arobi\Source\Repos\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\bin\Debug\ChatClient.exe.config
+C:\Users\arobi\Source\Repos\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\bin\Debug\ChatPlatform.pdb
+C:\Users\arobi\Source\Repos\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\bin\Debug\ChatPlatform.exe.config
+C:\Users\arobi\Source\Repos\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\arobi\Source\Repos\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\arobi\Source\Repos\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\obj\Debug\ChatPlatformUnitTest.csprojAssemblyReference.cache
+C:\Users\arobi\Source\Repos\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\obj\Debug\ChatPlatformUnitTest.csproj.CopyComplete
+C:\Users\arobi\Source\Repos\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\obj\Debug\ChatPlatformUnitTest.dll
+C:\Users\arobi\Source\Repos\SSE554-P2\ChatPlatform\ChatPlatformUnitTest\obj\Debug\ChatPlatformUnitTest.pdb

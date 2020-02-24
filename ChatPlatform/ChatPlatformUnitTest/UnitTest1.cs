@@ -66,6 +66,8 @@ namespace ChatPlatformUnitTest
         [TestMethod]
         public void TestTalkback()
         {
+            List<ChatClient.MessageRecievedEventArgs> list = new List<ChatClient.MessageRecievedEventArgs>();
+
             ChatPlatform.ServerHandler.Start(13000);
             ChatPlatform.ServerHandler.BeginAcceptConnections();
             Thread.Sleep(1000);
@@ -74,7 +76,46 @@ namespace ChatPlatformUnitTest
             ChatClient.ClientHandler c2 = new ChatClient.ClientHandler("127.0.0.1", 13000, "TESTUSER2");
             Thread.Sleep(1000);
 
+            c2.ChatRecievedEventHandler += delegate (object sender, EventArgs eventArgs)
+            {
+                ChatClient.MessageRecievedEventArgs m = eventArgs as ChatClient.MessageRecievedEventArgs;
+                list.Add(m);
+            };
 
+            c1.SendMessage("TESTMESSAGE");
+            Thread.Sleep(1000);
+
+            foreach(ChatClient.MessageRecievedEventArgs m in list)
+                Debug.WriteLine("{0}", m.message);
+
+            Assert.IsTrue("TESTUSER1: TESTMESSAGE".Equals(list[0].message));
+
+            c1.StopClient();
+            c2.StopClient();
+            ChatPlatform.ServerHandler.Stop();
+        }
+
+        [TestMethod]
+        public void TestClientNumber()
+        {
+            List<ChatClient.ClientHandler> list = new List<ChatClient.ClientHandler>();
+
+            ChatPlatform.ServerHandler.Start(13000);
+            ChatPlatform.ServerHandler.BeginAcceptConnections();
+            Thread.Sleep(1000);
+
+            try
+            {
+                while (list.Count < 1000)
+                {
+                    ChatClient.ClientHandler c1 = new ChatClient.ClientHandler("127.0.0.1", 13000, "TESTUSER1");
+                    list.Add(c1);
+                }
+            }
+            catch(Exception e)
+            {
+                Debug.WriteLine(e.Message);
+            }
 
 
         }

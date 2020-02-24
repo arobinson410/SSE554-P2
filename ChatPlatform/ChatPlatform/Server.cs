@@ -6,6 +6,9 @@ using System.Threading;
 
 namespace ChatPlatform
 {
+    /// <summary>
+    /// Main server class containing the main method, which is run on server execution
+    /// </summary>
     class Server
     { 
         public static void Main(string[] args)
